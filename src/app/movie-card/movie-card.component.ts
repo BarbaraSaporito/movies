@@ -9,12 +9,7 @@ import { MovieService } from '../services/movie.service';
   styleUrls: ['./movie-card.component.css'],
 })
 export class MovieCardComponent {
-removeFromWatchlist(_t4: Movie) {
-throw new Error('Method not implemented.');
-}
-addToWatchlist(_t4: Movie) {
-throw new Error('Method not implemented.');
-}
+
   @Input() movies: Movie[] = [];
 
   constructor(private movieService: MovieService) {
@@ -25,6 +20,20 @@ throw new Error('Method not implemented.');
   private getMovies(): void {
     this.movies = this.movieService.getMovies();
   }
+
+  isOnWatchlist(movie: Movie): boolean {
+    return this.movieService.isInWatchlist(movie);
+  }
+
+  addToWatchlist(movie: Movie): void {
+    this.movieService.addToWatchlist(movie);
+  }
+
+  removeFromWatchlist(movie: Movie): void {
+    this.movieService.removeFromWatchlist(movie);
+  }
+
+
 
 }
 
