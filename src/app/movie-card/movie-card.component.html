@@ -1,0 +1,19 @@
+<article class="card">
+  <img [src]="movie.imageUrl" alt="{{ movie.title }}" class="card-img-top">
+  <div class="card-body">
+    <h2 class="card-title">{{ movie.title }}</h2>
+    <p class="card-description">{{ movie.description }}</p>
+    <p class="card-info"><strong>Rating:</strong> {{ movie.rating }}</p>
+    <p class="card-info"><strong>Duration:</strong> {{ movie.duration }}</p>
+    <p class="card-info"><strong>Genre:</strong> {{ movie.genre }}</p>
+    <p class="card-info"><strong>Released date:</strong> {{ movie.releaseDate }}</p>
+    <button *ngIf="!isOnWatchlist" (click)="addToWatchlist()" class="btn btn-primary">Add to Watchlist</button>
+    <button *ngIf="isOnWatchlist" (click)="removeFromWatchlist()" class="btn btn-danger">Remove from Watchlist</button>
+    <div *ngIf="isOnWatchlist" class="badge badge-success">On my watchlist</div>
+  </div>
+  <footer class="card-footer">
+    <!-- YouTube embedded video -->
+    <iframe width="100%" height="315" [src]="getTrailerUrl()" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  </footer>
+</article>
+
