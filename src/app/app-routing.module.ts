@@ -3,7 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { MovieCardComponent } from './movie-card/movie-card.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: 'movies', pathMatch: 'full' },
+
   { path: 'movies', component: MovieCardComponent },
 ];
 

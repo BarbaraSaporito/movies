@@ -16,7 +16,7 @@ export class MovieService {
       genre: 'Action, Sci-Fi',
       releaseDate: '3 September 2020',
       trailerLink: 'https://www.youtube.com/watch?v=LdOM0x0XDMo',
-      imageUrl: 'path/to/tenet-image.jpg',
+      imageUrl: 'assets/img/tenet.png',
     },
     {
       title: 'Spider-Man: Into the Spider-Verse',
@@ -26,7 +26,7 @@ export class MovieService {
       genre: 'Action, Animation, Adventure',
       releaseDate: '14 December 2018',
       trailerLink: 'https://www.youtube.com/watch?v=tg52up16eq0',
-      imageUrl: 'path/to/spider-man-image.jpg',
+      imageUrl: 'assets/img/spiderMan.png',
     },
     {
       title: 'Knives Out',
@@ -36,7 +36,7 @@ export class MovieService {
       genre: 'Comedy, Crime, Drama',
       releaseDate: '27 November 2019',
       trailerLink: 'https://www.youtube.com/watch?v=qGqiHJTsRkQ',
-      imageUrl: 'path/to/knives-out-image.jpg',
+      imageUrl: 'assets/img/knives.png',
     },
     {
       title: 'Guardians of the Galaxy',
@@ -46,7 +46,7 @@ export class MovieService {
       genre: 'Action, Adventure, Comedy',
       releaseDate: '1 August 2014',
       trailerLink: 'https://www.youtube.com/watch?v=d96cjJhvlMA',
-      imageUrl: 'path/to/guardians-of-the-galaxy-image.jpg',
+      imageUrl: 'assets/img/guardians.png',
     },
     {
       title: 'Avengers: Age of Ultron',
@@ -56,7 +56,7 @@ export class MovieService {
       genre: 'Action, Adventure, Sci-Fi',
       releaseDate: '1 May 2015',
       trailerLink: 'https://www.youtube.com/watch?v=tmeOjFno6Do',
-      imageUrl: 'path/to/avengers-age-of-ultron-image.jpg',
+      imageUrl: 'assets/img/avengers.png',
     },
   ];
 
