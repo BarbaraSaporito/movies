@@ -1,0 +1,8 @@
+.movie-card{
+  max-width: 45vh;
+  margin: 2rem;
+}
+.example-header-imag{
+  background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+background-size: cover;
+}
