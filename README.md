@@ -48,3 +48,6 @@ Make sure you have [Node.js](https://nodejs.org/) installed.
 
 11. If you would like to contribute or report issues, feel free to open an issue or submit a pull request.
 
+![image](https://github.com/BarbaraSaporito/movies/assets/66287896/a8063b79-830c-45c4-8c69-34d238098beb)
+
+
