@@ -11,9 +11,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MovieCardComponent } from './movie-card/movie-card.component';
 
 
-
-
-
 @NgModule({
   declarations: [
     AppComponent,
