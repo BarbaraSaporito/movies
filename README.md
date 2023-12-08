@@ -1,27 +1,53 @@
-# MovieApp
+# Movie Viewing Project
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.3.
+This Angular project allows users to view a list of movies with details and additional features such as sorting, adding to the watchlist, and movie details.
 
-## Development server
+## Key Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+1. **Main Movie View:**
+   - View a list of movie thumbnails with details for each movie.
 
-## Code scaffolding
+2. **Sorting:**
+   - Sort movies by title.
+   - Sort movies by release date.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+3. **Watchlist:**
+   - Add movies to the watchlist with the "Add to Watchlist" button.
+   - The watchlist is stored locally for each user.
 
-## Build
+4. **Watchlist Indication:**
+   - Each movie thumbnail displays a label "In my watchlist" if the movie is in the user's watchlist.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+5. **Movie Details:**
+   - Click on a movie thumbnail to be redirected to the "Movie Details" component.
+   - Utilize routing to navigate to movie details.
 
-## Running unit tests
+6. **Movie Details:**
+   - View details and the image of the movie.
+   - Watch the movie trailer embedded from YouTube.
+   - Toggle button to add or remove the movie from the watchlist.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## How to Run the Project
 
-## Running end-to-end tests
+Make sure you have [Node.js](https://nodejs.org/) installed.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+7. Clone this repository:
+   ```bash
+   git clone https://github.com/BarbaraSaporito/movies.git
+   
+8. Navigate to the project directory:
+  cd movie-app
 
-## Further help
+9. Install dependencies:
+  npm install
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+10. Run the application:
+  npm install
+
+**Contribution:**
+
+11. If you would like to contribute or report issues, feel free to open an issue or submit a pull request.
+
+![image](https://github.com/BarbaraSaporito/movies/assets/66287896/a8063b79-830c-45c4-8c69-34d238098beb)
+
+
