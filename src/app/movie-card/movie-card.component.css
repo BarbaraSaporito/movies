@@ -1,6 +1,6 @@
 .container {
   display: grid;
-  grid-template-columns: repeat(4, 1fr) ;
+  grid-template-columns: repeat(3, 1fr) ;
   grid-gap: 2rem;
   margin: 1rem;
 }
@@ -15,8 +15,8 @@
 }
 
 img {
-  width: 90%;
-  height: 50vh;
+  width: 95%;
+  height: 60%;
   border-radius: .1rem;
   margin: 1rem;
 }

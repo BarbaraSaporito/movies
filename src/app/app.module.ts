@@ -22,6 +22,7 @@ import { MovieCardComponent } from './movie-card/movie-card.component';
     AppRoutingModule,
     MatCardModule,
     BrowserAnimationsModule,
+
     MatButtonModule
   ],
   providers: [
